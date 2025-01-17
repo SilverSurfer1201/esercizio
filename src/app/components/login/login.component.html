@@ -1,8 +1,12 @@
-<h3>Benvenuto in Esercizio, inserisci email e password per proseguire:</h3>
+<div class="container">
+  <h3>Benvenuto in Esercizio, inserisci email e password per proseguire:</h3>
+  <form class="form" action="submit">
+    <label class="label" for="email">Email</label>
+    <input type="email" id="email" required>
+    <label class="label" for="password">Password</label>
+    <input type="password" id="password" required>
+    <button id="login-button" >Login</button>
+  </form>
+</div>
 
-<form action="submit">
-  <label for="email">Email</label>
-  <input type="email" required>
-  <label for="password">Password</label>
-  <input type="password" required>
-</form>
+

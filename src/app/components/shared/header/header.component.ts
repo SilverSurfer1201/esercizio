@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-header',
