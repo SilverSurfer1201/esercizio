@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/shared/header/header.component';
+import { TabMenuModule } from 'primeng/tabmenu';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegistrationComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TabMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
